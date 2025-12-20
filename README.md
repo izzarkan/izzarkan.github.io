@@ -19,7 +19,7 @@ Initial commit, removed ties with the old version.
 - Removed TODO section
 - Cleaned footer
 
-## Log 1 - 20 December 2025
+## Log 2 - 20 December 2025
 
 Second commit, added Unsplash for my mediocre photography skills.
 
