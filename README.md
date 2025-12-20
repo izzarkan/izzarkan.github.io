@@ -6,7 +6,7 @@ This is where I will be putting my "small" projects alongside my portfolio
 
 - [ ] Remake
 - [ ] Implement integration with projects
-- [ ] Update about me
+- [X] Update about me
 
 ## Log 1 - 1 October 2025
 
