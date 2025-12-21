@@ -35,6 +35,16 @@ Second commit, added Unsplash for my mediocre photography skills.
 
 That's all, thanks.
 
+## Log 3 - 21 December 2025
+
+Thied commit, added more project links and fixed about me.
+
+### Changes:
+
+- Updated about me
+- Added more project links
+- Slightly fixed the CSS
+
 ## CREDITS
  
 Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
