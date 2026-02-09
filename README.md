@@ -60,6 +60,7 @@ A way for me to actually learn how to use APIs.
 - Integrated Unsplash API With Gallery
 - Added "Contact Me" on navbar
 - Added fullscreen mode on Gallery
+- Fixed some bugs
 
 ## CREDITS
  
