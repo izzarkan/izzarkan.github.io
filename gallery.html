@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izz | Gallery</title>
+
+    <link rel="icon" href="media/svg/logo2.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global-style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/gallery-style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="poppins-regular">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light poppins-regular fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Izz</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#about-me">About me</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:Arkanizzzaydanmaulana@gmail.com">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+        <!-- Gallery -->
+        <section class="gallery-bg">
+            <div class="gallery-container">
+                <div class="gallery-title">
+                    <h1 class="poppins-bold mb-2">Gallery</h1>
+                    <h3 class="mb-4">My personal gallery, fetched from <a href="https://unsplash.com/@eikosiefta" target="_blank">Unsplash Profile</a> using Unsplash's API.</h3>
+                </div>
+                <div id="gallery" class="gallery gallery-grid"></div>
+            </div>
+        </section>
+        <!-- Fullscreen Viewer -->
+        <div id="fullscreen-viewer">
+            <span id="close-btn">&times;</span>
+            <img alt="Full image" id="fullscreen-image">
+            <button class="nav prev">‹</button>
+            <button class="nav next">›</button>
+        </div>
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-container">
+                <p>
+                    Site made with
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" viewBox="0 0 16 16">
+                    <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1"/>
+                </svg>
+                    by me, myself.
+                </p>
+                <div class="footer-links">
+                    <a href="https://github.com/izzarkan/izzarkan.github.io" target="_blank" style="color: crimson;">Source code</a>
+                    <a href="mailto:Arkanizzzaydanmaulana@gmail.com">Contact Me</a>
+                </div>
+            </div>
+        </footer>
+        <script src="scripts/gallery-script.js"></script>
+    </body>
+</html>

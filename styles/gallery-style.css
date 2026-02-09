@@ -1,0 +1,129 @@
+    body {
+        margin: 0;
+        background: #0f0c29;
+    }
+
+    .gallery-bg {
+        background: 
+            radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.06), transparent 40%),
+            linear-gradient(to bottom, #2b1055, #0f0c29);
+        min-height: 100vh;
+    }
+
+    .gallery-title {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .gallery-container {
+        padding: 50px 5vw 50px;
+        text-align: center;
+        color:  white;
+    }
+
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+    }
+
+    .gallery-grid img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 14px;
+        transition: 0.25s ease;
+        cursor: pointer;
+        box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+    }
+
+    .gallery-grid img:hover {
+        transform: scale(1.02);
+        opacity: 0.9;
+    }
+
+    .gallery-title a {
+        color: #c7b8ff !important;
+        text-decoration: none !important;
+        transition: color 0.3s ease !important;
+    }
+
+    .gallery-title a:hover {
+        text-decoration: underline !important;
+        color: #9f90d4 !important;
+    }
+
+    body.fullscreen-open {
+    overflow: hidden;
+    }
+
+    /* Gallery grid */
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    }
+
+    .gallery img {
+    width: 100%;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: transform .3s ease;
+    }
+
+    .gallery img:hover {
+    transform: scale(1.03);
+    }
+
+    /* Fullscreen overlay */
+    #fullscreen-viewer {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .25s ease;
+    z-index: 9999;
+    }
+
+    #fullscreen-viewer.show {
+    opacity: 1;
+    pointer-events: auto;
+    }
+
+    #fullscreen-viewer img {
+    max-width: 92%;
+    max-height: 92%;
+    animation: zoomIn .25s ease;
+    }
+
+    @keyframes zoomIn {
+    from { transform: scale(.9); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+    }
+
+    #close-btn {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    }
+
+    .nav {
+    position: absolute;
+    top: 50%;
+    font-size: 48px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-50%);
+    }
+
+    .nav.prev { left: 20px; }
+    .nav.next { right: 20px; }
