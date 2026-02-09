@@ -6,7 +6,8 @@ This is where I will be putting my "small" projects alongside my portfolio
 
 - [ ] Remake
 - [ ] Implement integration with projects
-- [X] 
+- [X] Add Unsplash integration with Unsplash API
+- [X] Add Gallery page with Unsplash API
 - [X] Update about me
 
 ## Log 1 - 1 October 2025
@@ -38,13 +39,27 @@ That's all, thanks.
 
 ## Log 3 - 21 December 2025
 
-Thied commit, added more project links and fixed about me.
+Third commit, added more project links and fixed about me.
 
 ### Changes:
 
 - Updated about me
 - Added more project links
 - Slightly fixed the CSS
+
+## Log 4 - 09 February 2026
+
+Fourth commit and push to GitHub, added a Gallery functionality with Unsplash API
+
+A way for me to actually learn how to use APIs.
+
+### Changes:
+
+- Updated index.html
+- Added Gallery
+- Integrated Unsplash API With Gallery
+- Added "Contact Me" on navbar
+- Added fullscreen mode on Gallery
 
 ## CREDITS
  
