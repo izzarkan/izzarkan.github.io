@@ -80,9 +80,7 @@ Fifth commit and push to GitHub, added attribution and updated a few more things
 - Added attribution
 - Fixed a few things
 - Fixed Gallery's Javascript
-- Changed repository's description from
-
-"This is where I will be putting my "small" projects alongside my portfolio" -> "
+- Changed repository's description
 
 ## CREDITS
  
