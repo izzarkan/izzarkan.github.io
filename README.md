@@ -1,11 +1,20 @@
 # izzarkan.github.io
 
-This is where I will be putting my "small" projects alongside my portfolio
+A personal website showcasing my personal links and a Gallery fetching my photos from Unsplash via the Unsplash API.
+
+As well as a place to put my Project links.
+
+## Components and Frameworks used:
+
+- Bootstrap 5
+- Local CSS
+- Local JS
+- Unsplash Developer API
 
 ## TODO stuff
 
-- [ ] Remake
-- [ ] Implement integration with projects
+- [ ] Remake (ONLY if I actually want to do it.)
+- [ ] Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)
 - [X] Add Unsplash integration with Unsplash API
 - [X] Add Gallery page with Unsplash API
 - [X] Update about me
@@ -62,6 +71,21 @@ A way for me to actually learn how to use APIs.
 - Added fullscreen mode on Gallery
 - Fixed some bugs
 
+## Log 5 - 10 February 2026
+
+Fifth commit and push to GitHub, added attribution and updated a few more things
+
+### Changes:
+
+- Added attribution
+- Fixed a few things
+- Fixed Gallery's Javascript
+- Changed repository's description from
+
+"This is where I will be putting my "small" projects alongside my portfolio" -> "
+
 ## CREDITS
  
-Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
+- Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons
+- Thanks to [Unsplash Developer](https://unsplash.com) for providing me a free API service
+- ChatGPT for debugging and guidance

@@ -34,38 +34,43 @@ images.forEach((img, index) => {
 }
 
 function openFullscreen(index) {
-currentIndex = index;
-viewerImg.src = images[index].urls.regular;
-viewer.classList.add("show");
-document.body.classList.add("fullscreen-open");
+    currentIndex = index;
+    viewerImg.src = images[index].urls.regular;
+    fetch(images[index].links.download_location, {
+    headers: {
+        Authorization: `Client-ID ${ACCESS_KEY}`
+    }
+    }).catch( () => {});
+    viewer.classList.add("show");
+    document.body.classList.add("fullscreen-open");
 }
 
 function closeFullscreen() {
-viewer.classList.remove("show");
-document.body.classList.remove("fullscreen-open");
+    viewer.classList.remove("show");
+    document.body.classList.remove("fullscreen-open");
 }
 
 function showNext() {
-currentIndex = (currentIndex + 1) % images.length;
-viewerImg.src = images[currentIndex].urls.regular;
+    currentIndex = (currentIndex + 1) % images.length;
+    viewerImg.src = images[currentIndex].urls.regular;
 }
 
 function showPrev() {
-currentIndex = (currentIndex - 1 + images.length) % images.length;
-viewerImg.src = images[currentIndex].urls.regular;
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    viewerImg.src = images[currentIndex].urls.regular;
 }
 
 closeBtn.addEventListener("click", closeFullscreen);
 viewer.addEventListener("click", e => {
-if (e.target === viewer) closeFullscreen();
+    if (e.target === viewer) closeFullscreen();
 });
 
 nextBtn.addEventListener("click", showNext);
 prevBtn.addEventListener("click", showPrev);
 
 document.addEventListener("keydown", e => {
-if (!viewer.classList.contains("show")) return;
-if (e.key === "Escape") closeFullscreen();
-if (e.key === "ArrowRight") showNext();
-if (e.key === "ArrowLeft") showPrev();
+    if (!viewer.classList.contains("show")) return;
+    if (e.key === "Escape") closeFullscreen();
+    if (e.key === "ArrowRight") showNext();
+    if (e.key === "ArrowLeft") showPrev();
 });

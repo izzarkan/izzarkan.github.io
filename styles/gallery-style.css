@@ -21,6 +21,10 @@
         color:  white;
     }
 
+    /* .gallery-attribution {
+        padding: 1rem 0;
+    } */
+
     .gallery-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
