@@ -82,6 +82,14 @@ Fifth commit and push to GitHub, added attribution and updated a few more things
 - Fixed Gallery's Javascript
 - Changed repository's description
 
+## Log 6 - 19 March 2026
+
+Sixth commit & push to GitHub, just updated the age counter.
+
+### Changes:
+
+- Fixed age counter
+
 ## CREDITS
  
 - Thanks to [svgrepo.com](https://svgrepo.com) for providing me free SVG icons

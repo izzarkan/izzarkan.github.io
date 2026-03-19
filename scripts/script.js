@@ -8,8 +8,15 @@ btn.textContent = moreText.classList.contains('show') ? 'Read Less' : 'Read More
 });
 
 // Dynamic age
-const startYear = 2008;
-const currentYear = new Date().getFullYear();
+const birthDate = new Date(2008, 5, 27);
+const today = new Date();
 
-const years = currentYear - startYear;
-document.getElementById("years").textContent = years;
+let age = today.getFullYear() - birthDate.getFullYear();
+
+const hasHadBirthday = today.getMonth() > birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+
+if (!hasHadBirthday) {
+    age--;
+}
+
+document.getElementById("years").textContent = age;
