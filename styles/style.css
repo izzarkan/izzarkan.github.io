@@ -10,6 +10,16 @@ body {
     font-size: 1rem;
 }
 
+.reference {
+    color: rgb(114, 36, 36) !important;
+}
+
+.reference:hover {
+    color: rgb(187, 66, 66) !important;
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}
+
 .text1 {
     font-size: 2rem;
 }

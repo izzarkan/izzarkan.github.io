@@ -14,7 +14,7 @@ As well as a place to put my Project links.
 ## TODO stuff
 
 - [ ] Remake (ONLY if I actually want to do it.)
-- [ ] Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)
+- [ ] ~~Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)~~
 - [X] Add Unsplash integration with Unsplash API
 - [X] Add Gallery page with Unsplash API
 - [X] Update about me
@@ -89,6 +89,24 @@ Sixth commit & push to GitHub, just updated the age counter.
 ### Changes:
 
 - Fixed age counter
+
+## Log 7 - 1 April 2026
+
+Seventh commit and push, updated profile, added tooltips, and more description
+
+### Changes:
+
+- Updated profile
+- Changed from "Links" -> "Find me on"
+- Changed from "Intro and Stuff" -> "Intro"
+- Changed Intro content
+- Added Profile
+- Added Hobbies
+- Added Experiences
+- Added Organizations and Extracurricular
+- Added Communities
+- Added tooltips
+- Added [reference](https://genius.com/25781043)
 
 ## CREDITS
  
