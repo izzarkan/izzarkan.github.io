@@ -7,7 +7,7 @@ As well as a place to put my Project links.
 ## Components and Frameworks used:
 
 - Bootstrap 5
-- Local CSS
+- Local CSS & SCSS
 - Local JS
 - Unsplash Developer API
 
