@@ -4,6 +4,8 @@ A personal website showcasing my personal links and a Gallery fetching my photos
 
 As well as a place to put my Project links.
 
+**This repository is discontinued, please switch to [newer version](https://izzarkan.vercel.app/)**
+
 ## Components and Frameworks used:
 
 - Bootstrap 5
@@ -13,7 +15,7 @@ As well as a place to put my Project links.
 
 ## TODO stuff
 
-- [ ] Remake (ONLY if I actually want to do it.)
+- [ ] ~~Remake (ONLY if I actually want to do it.)~~
 - [ ] ~~Implement integration with projects (Could be abandoned, since I don't even understand what I meant by Integration)~~
 - [X] Add Unsplash integration with Unsplash API
 - [X] Add Gallery page with Unsplash API
@@ -107,6 +109,14 @@ Seventh commit and push, updated profile, added tooltips, and more description
 - Added Communities
 - Added tooltips
 - Added [reference](https://genius.com/25781043)
+
+## Log 8 - 5 April 2026
+
+Eighth commit before switch to Vercel & NextJS
+
+### Changes:
+
+- Added modal popup alert to switch to [Vercel](https://izzarkan.vercel.app) version
 
 ## CREDITS
  
